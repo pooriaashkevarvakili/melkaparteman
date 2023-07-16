@@ -1,0 +1,210 @@
+.main-layout .ant-layout-header {
+	padding-inline: 0px;
+}
+
+/* sign-in */
+.sign-in-form .css-dev-only-do-not-override-c8d6g2.ant-row,
+.sign-in-form .css-dev-only-do-not-override-ph9edi.ant-row {
+	display: block !important;
+}
+
+// app-table
+.app-table {
+	font-weight: 500;
+
+	.bg-green {
+		background-color: $color-red-light !important;
+		padding: 2px 8px;
+	}
+
+	.bg-red {
+		background-color: $color-green-light !important;
+		padding: 2px 8px;
+	}
+}
+
+// app-icon
+.app-icon {
+	font-size: 1rem;
+
+	.icon-info {
+		color: $color-primary-lighter;
+	}
+
+	.icon-edit {
+		color: $color-primary-dark;
+	}
+
+	.icon-success {
+		color: $color-green;
+	}
+
+	.icon-delete {
+		color: $color-red;
+	}
+
+	.icon-secondary {
+		color: $color-secondary;
+	}
+}
+
+// static-box
+.more-info {
+	.ant-statistic-content {
+		font-size: 14px !important;
+	}
+}
+
+// Carousel dots
+.dots-color {
+	button {
+		background-color: $color-primary-dark !important;
+		padding: 3px 0px !important;
+		margin-top: 30px !important;
+	}
+}
+
+// modals
+.modals-title {
+	text-align: center;
+	padding: 8px;
+	color: $color-primary;
+	border-top: 1px dashed $color-primary;
+	border-right: 1px dashed $color-primary;
+	@include rounded(5%);
+}
+
+.modals-layout {
+	border: 1px dashed $color-primary;
+	padding: 30px 30px 10px 30px;
+	min-height: 200px;
+	@include rounded(5%);
+	@include transition(0.5s);
+
+	&:hover {
+		@include transition(0.5s);
+		border: 1px solid $color-primary-darker;
+		background: $color-grey-light-4;
+	}
+}
+
+// upload section
+.upload-boxes {
+	border-right: 1px dashed $color-primary;
+	padding: 40px 20px;
+	@include rounded(20%);
+	@include transition(0.5s);
+}
+
+// spin loading
+.loading-page {
+	color: $color-white;
+	font-size: larger;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(-45deg, #ee7752, #f54e8e7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	height: 100vh;
+	animation: gradientCard 3s ease infinite;
+	-webkit-animation: gradientCard 3s ease infinite;
+}
+
+// wallet card
+@keyframes gradientCard {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.wallet-card-bg {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	background: linear-gradient(-45deg, #ee7752, #f54e8e7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	height: 200px;
+	padding: 0px 30px;
+	@include rounded(40px);
+	animation: gradientCard 15s ease infinite;
+	-webkit-animation: gradientCard 15s ease infinite;
+	@include transition(0.5s);
+
+	&:hover {
+		@include transition(0.5s);
+		box-shadow: 0px 0px 50px 0px rgba(41, 209, 136, 0.7);
+		-webkit-box-shadow: 0px 0px 50px 0px rgba(41, 209, 136, 0.7);
+		-moz-box-shadow: 0px 0px 50px 0px rgba(41, 209, 136, 0.7);
+	}
+}
+
+// user forms layout
+.user-form__layout {
+	border: 2px dotted $color-primary;
+	padding: 30px 30px 10px 30px;
+	min-height: 200px;
+	@include rounded(10px);
+	@include transition(0.5s);
+}
+
+// tabsMenu
+.tab-pan-layout {
+	border: 1px dotted $color-primary;
+	margin-bottom: 5px;
+	padding: 8px;
+	width: 100%;
+	@include rounded(10px);
+	@include transition(0.5s);
+}
+
+.search-Rtl {
+	margin-bottom: 10px;
+}
+
+
+.box-project {
+	background: white !important;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px !important;
+	width: 95% !important;
+	margin: 4px;
+}
+
+.ant-card-body {
+	overflow: hidden !important;
+	border-radius: 8px !important;
+	/* margin-top: 10px; */
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px !important;
+}
+
+.ant-modal-close {
+	top: 48px !important;
+	/* left: 30px; */
+	left: 40px !important;
+}
+
+.tab-pan-layout {
+	border: none !important;
+}
+
+.css-dev-only-do-not-override-7pldck.ant-table-wrapper-rtl {
+	direction: rtl;
+	background-color: white;
+	padding: 10px 10px 0 10px;
+	border-radius: 8px;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+}
+
+.css-dev-only-do-not-override-7pldck.ant-input-number-lg {
+	width: auto;
+	padding: 0px;
+	font-size: 16px;
+	border-radius: 10px;
+}

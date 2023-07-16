@@ -1,0 +1,72 @@
+// .btn-public {
+// 	width: 80px !important;
+// 	height: 40px !important;
+// 	padding-bottom: 10px !important;
+// 	font-weight: bold !important;
+// }
+
+.btn-public {
+	height: 40px;
+	line-height: 50px;
+	font-weight: bold !important;
+	width: 100% ;
+	background-color: #ffffff;
+	text-align: center;
+	padding: 0 2rem;
+	transition: all 0.3s linear;
+	cursor: pointer;
+	border: solid 1px transparent;
+	&.btn-success {
+		box-shadow: -3px 3px 6px 0 rgba(0, 0, 0, 0.16);
+		color: #ffffff;
+		border-color: #52c41a;
+		background-color: #52c41a;
+		&:hover {
+			color: #52c41a !important;
+			border-color: #52c41a !important;
+			background-color: transparent;
+		}
+	}
+	&.btn-action {
+		box-shadow: -3px 3px 6px 0 rgba(0, 0, 0, 0.16);
+		color: #ffffff;
+		border-color: #2196f3;
+		background-color: #2196f3;
+		&:hover {
+			color: #2196f3 !important;
+			border-color: #2196f3 !important;
+			background-color: transparent;
+		}
+	}
+	&.btn-secondary {
+		box-shadow: -3px 3px 6px 0 rgba(0, 0, 0, 0.16);
+		color: #ffffff;
+		border-color: #eb5e07b7;
+		background-color: #eb5e07b7;
+		&:hover {
+			color: #eb5e07b7 !important;
+			border-color: #eb5e07b7 !important;
+			background-color: transparent;
+		}
+	}
+	&.btn-danger {
+		box-shadow: -3px 3px 6px 0 rgba(0, 0, 0, 0.16);
+		color: #ffffff;
+		border-color: #eb2907b7;
+		background-color: #eb2907b7;
+		&:hover {
+			color: #eb2907b7 !important;
+			border-color: #eb2907b7 !important;
+			background-color: transparent;
+		}
+	}
+	&.btn-cancel {
+		background-color: #cccccc;
+		color: #f7f7f7;
+	}
+	&.btn-disable {
+		color: #888888;
+		border-color: #888888;
+		cursor: default;
+	}
+}

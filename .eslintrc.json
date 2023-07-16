@@ -1,0 +1,25 @@
+{
+	"extends": [
+		"eslint:recommended",
+		"next",
+		"next/core-web-vitals"
+	],
+	"rules": {
+		"eqeqeq": "warn",
+		"no-undef": "error",
+		"react-hooks/rules-of-hooks": "error",
+		"react-hooks/exhaustive-deps": "warn",
+		"react/no-unescaped-entities": "off",
+		"@next/next/no-page-custom-font": "off",
+		"no-unused-vars": "warn",
+		"no-extra-semi": 1,
+		"no-mixed-spaces-and-tabs": 0 // disable rule
+	},
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": "latest",
+		"sourceType": "module"
+	}
+}

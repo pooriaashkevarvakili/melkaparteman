@@ -1,0 +1,49 @@
+.waitingOrderCard__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+
+.buyContainer {
+    border-left: 10px solid #18A979;
+}
+
+.saleContainer {
+    border-left: 10px solid #D73E36;
+}
+
+.waitingOrderCard__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    color: #FFFFFF;
+}
+
+.waitingOrderCard__body {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.waitingOrderCard__body__inputFrame {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 1px;
+}
+
+.waitingOrderCard__body__dateFrame {
+    display: flex;
+    // align-items: space-around !important;
+    justify-content: space-between !important;
+    width: 100%;
+}

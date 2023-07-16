@@ -1,0 +1,34 @@
+.previewStack__container {
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.projectOperaion__CountUpContainer {
+    display: flex;
+    justify-content: flex-end !important;
+    border-top: black !important;
+}
+
+.projectOperaion__buy {
+    background: #ffffff 2px !important;
+    border-color: #18A979 !important;
+    color: #18A979 !important;
+    font-weight: bold !important
+}
+
+.projectOperaion__buy:hover {
+    background-color: #18A979 !important;
+    color: #FFFFFF !important;
+}
+
+.projectOperaion__sale {
+    background: #FFFFFF 1px !important;
+    border-color: #D73E36 !important;
+    color: #D73E36 !important;
+    font-weight: bold
+}
+
+.projectOperaion__sale:hover {
+    background-color: #D73E36 !important;
+    color: #FFFFFF !important;
+}

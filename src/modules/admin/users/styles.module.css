@@ -1,0 +1,4 @@
+.ant-table-row:nth-child(even) {
+    background-color: #cf6666;
+  }
+  

@@ -1,0 +1,22 @@
+.projects__projectsContainer {
+    background-color: #FFFFFF;
+    margin-left: 5px;
+    height: 100% !important;
+    border-radius: 5px
+}
+
+.projects__previewStackContainer {
+    background-color: #FFFFFF;
+    height: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.selected-row {
+    background-color: #C9EEE1;
+}
+
+.selected-row:hover {
+    background-color: #C9EEE1 !important;
+}

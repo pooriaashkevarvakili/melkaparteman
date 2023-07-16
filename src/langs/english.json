@@ -1,0 +1,30 @@
+{
+	"schemas": {
+		"required": "This field is required",
+		"email": "email"
+	},
+	"commons": {},
+	"layouts": {
+		"drawerTitle": "Setting",
+		"theme": "theme :",
+		"language": "language :",
+		"light": "Light",
+		"dark": "Dark"
+	},
+	"register": {
+		"rules": "I agree the Terms and Conditions",
+		"exist": "Already have an account"
+	},
+	"login": {
+		"login": "SIGN In",
+		"loginForm": "Sign In form",
+		"title": "Sign In",
+		"description": "Log in to access all site features",
+		"remember": "remember me",
+		"needSignUp": "I need an account ,  ",
+		"signUp": "Sign Up",
+		"email": "Email",
+		"password": "Password",
+		"Repeatpassword": "Repeatpassword"
+	}
+}

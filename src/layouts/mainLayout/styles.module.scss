@@ -1,0 +1,36 @@
+@import "@/assets/styles/base/base.scss";
+
+.main-layout__content {
+	margin: 24px 16px;
+	min-height: 280px;
+	height: calc(100vh - 182px);
+}
+
+.sign-up-header {
+	position: relative;
+	height: 80vh;
+	&__content {
+		text-align: center;
+		@include absCenter(20%);
+		padding-top: 80px;
+		h1 {
+			color: $color-whiteSmoke;
+			font-size: $font-size-md;
+			@include respond(tab-port) {
+				font-size: $font-size-lg;
+			}
+		}
+		p {
+			color: $color-whiteSmoke;
+			font-size: $font-size-sm;
+		}
+	}
+}
+
+.card-sign-up {
+	@include rounded(20%);
+	@include absCenter(80%, 50%);
+	box-shadow: 0 20px 27px rgba($color-black, 0.5);
+	width: 100%;
+	max-width: 500px;
+}

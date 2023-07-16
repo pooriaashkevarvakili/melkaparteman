@@ -1,0 +1,67 @@
+.orderCard__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 350px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.orderCard__header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.buy {
+    border-left: 10px #18A979 solid;
+}
+
+.sale {
+    border-left: 10px #D73E36 solid;
+}
+
+.orderCard__orderFrom {
+    margin-top: 20px;
+    margin-bottom: 0px !important;
+}
+
+
+.buy__btn {
+    background-color: #18A979 !important;
+    color: #FFFFFF !important;
+}
+
+.buy__btn:hover {
+    border: solid 1px #18A979 !important;
+    background-color: #FFFFFF !important;
+    color: #18A979 !important;
+}
+
+.sell__btn {
+    background-color: #D73E36 !important;
+    color: #FFFFFF !important;
+}
+
+.sell__btn:hover {
+    border: solid 1px #D73E36 !important;
+    color: #D73E36 !important;
+    background-color: #FFFFFF !important;
+}
+
+.orderCard__totalWrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.5rem;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.orderCard__total {
+    font-size: 1.5rem !important;
+    width: 100%;
+    text-align: center;
+}

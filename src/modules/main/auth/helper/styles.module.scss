@@ -1,0 +1,54 @@
+@import "@/assets/styles/base/base.scss";
+
+.sign-up {
+	height: 100vh;
+	width: 100vw;
+	background-color: #1677ff1a;
+}
+
+.sign-up-header {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	@include respond(tab-port) {
+		width: 80%;
+	}
+	@include respond(tab-land) {
+		width: 80%;
+	}
+	@include respond(big-desktop) {
+		width: 80%;
+	}
+	&__content {
+		text-align: center;
+		@include absCenter(45%, 40%);
+		h1 {
+			color: $color-whiteSmoke;
+			font-size: $font-size-md;
+			@include respond(tab-port) {
+				font-size: $font-size-lg;
+			}
+		}
+		p {
+			color: $color-whiteSmoke;
+			font-size: $font-size-sm;
+		}
+	}
+}
+
+.card-sign-up {
+	@include rounded(20%);
+	@include absCenter(50%, 50%);
+	box-shadow: 20px 20px 20px 20px rgba($color-black, 0.3);
+	width: 100%;
+	max-width: 500px;
+	@include respond(tab-port) {
+		@include absCenter(50%, 95%);
+	}
+	@include respond(tab-land) {
+		@include absCenter(50%, 95%);
+	}
+	@include respond(big-desktop) {
+		@include absCenter(50%,95%);
+	}
+}

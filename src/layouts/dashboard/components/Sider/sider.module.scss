@@ -1,0 +1,54 @@
+.sider {
+    background-color: #4F6883;
+    width: 100%;
+    height: 100vh;
+    color: #FFFFFF;
+}
+
+.sider__logo {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.sider__menu__menuitem {
+    background-color: #4F6883;
+    color: #FFFFFF;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 100%;
+    height: 40px;
+    font-family: 'IRANSans';
+    font-size: 20px;
+
+    a {
+        color: #FFFFFF !important;
+    }
+}
+
+.sider__menu__menuitem:hover {
+    color: #4F6883;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+
+    a {
+        color: #4F6883 !important;
+    }
+}
+
+.sider__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}

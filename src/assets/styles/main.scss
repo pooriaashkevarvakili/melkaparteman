@@ -1,0 +1,67 @@
+@import "base/base";
+@import "base/typography";
+
+@import "modules/antd";
+@import "modules/chart";
+@import "modules/ckEditor";
+
+@import "global/global";
+
+html {
+	scroll-behavior: smooth;
+	min-height: 100%;
+	body {
+		margin: 0;
+		padding: 0;
+		min-height: 100%;
+		box-sizing: border-box;
+		font-weight: 500;
+		* {
+			padding: 0;
+			outline: none;
+			@extend .IRANSans;
+		}
+	}
+}
+
+// scrollBAR
+::-webkit-scrollbar {
+	width: 2px;
+	height: 4px;
+}
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+::-webkit-scrollbar-thumb {
+	background: #88888883;
+	@include rounded(20%);
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #7c7c7c;
+}
+
+// calender
+.responsive-calendar {
+	width: 100%;
+	font-size: 9px !important; /* default to 10px */
+}
+@media (max-width: 1500px) {
+	.responsive-calendar {
+		font-size: 8px !important;
+	}
+}
+@media (max-width: 1200px) {
+	.responsive-calendar {
+		font-size: 7px !important;
+	}
+}
+@media (max-width: 768px) {
+	.responsive-calendar {
+		font-size: 6px !important;
+	}
+}
+@media (min-width: 2500px) {
+	.responsive-calendar {
+		font-size: 12px !important;
+	}
+}

@@ -1,0 +1,40 @@
+.drawerProjectOperation__container {
+    height: 100% !important;
+    overflow: auto;
+
+
+    background-color: #4F6883;
+    border-radius: 5px !important;
+}
+
+.drawerProjectOperation__card {
+    // height: calc(100vh - 75px) !important;
+    // height: 100% !important;
+    border-radius: 5px !important;
+    padding: 5px !important;
+    background-color: #4F6883 !important;
+}
+
+.drawerProjectOperation__card__buyButton {
+    background-color: #18A979 !important;
+    border-color: #18A979 !important;
+    color: #FFFFFF !important;
+    font-weight: bold !important
+}
+
+.drawerProjectOperation__card__buyButton:hover {
+    background-color: #FFFFFF !important;
+    color: #18A979 !important;
+}
+
+.drawerProjectOperation__card__saleButton {
+    background-color: #D73E36 !important;
+    border-color: #D73E36 !important;
+    color: #FFFFFF !important;
+    font-weight: bold
+}
+
+.drawerProjectOperation__card__saleButton:hover {
+    background-color: #FFFFFF !important;
+    color: #D73E36 !important;
+}
